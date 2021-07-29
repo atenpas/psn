@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Efficient and Accurate Candidate Generation for Grasp Pose Detection in SE(3)
 
-You can use the [editor on GitHub](https://github.com/atenpas/psn/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Grasp detection of novel objects in unstructured environments is a key capability in robotic manipulation. For 2D grasp detection problems where grasps are assumed to lie in the plane, it is common to design a fully convolutional neural network that predicts grasps over an entire image in one step. However, this is not possible for grasp pose detection where grasp poses are assumed to exist in SE(3). In this case, it is common to approach the problem in two steps: grasp candidate generation and candidate classification. Since grasp candidate classification is typically expensive, the problem becomes one of efficiently identifying high quality candidate grasps. This paper proposes a new grasp candidate generation method that significantly outperforms major 3D grasp detection baselines.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Publication
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Andreas ten Pas](http://ccs.neu.edu/home/atp/), [Colin Keil](https://www.khoury.northeastern.edu/people/colin-keil/), and [Robert Platt](http://ccs.neu.edu/home/rplatt/). Efficient and Accurate Candidate Generation for Grasp Pose Detection in SE(3). IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2021.
 
-```markdown
-Syntax highlighted code block
+## Video
 
-# Header 1
-## Header 2
-### Header 3
+TODO
 
-- Bulleted
-- List
+### Source Code
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/atenpas/psn/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+TODO
