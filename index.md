@@ -1,3 +1,5 @@
+# Efficient and Accurate Candidate Generation for Grasp Pose Detection in SE(3)
+
 ## Summary
 
 Grasp detection of novel objects in unstructured environments is a key
