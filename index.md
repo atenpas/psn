@@ -1,6 +1,5 @@
 # Efficient and Accurate Candidate Generation for Grasp Pose Detection in SE(3)
 
-abc
 
 ## Summary
 
@@ -32,6 +31,10 @@ candidate.
 
 <img src="img/representation.png" alt="representation" width="60%" height="60%">
 
+The Proposal Scoring Network (PSN) takes an image representation of the local 
+object geometry in the vicinity of the sampled point as input and produces a 
+score for each of the $m=196$ hand orientations as output.
+
 
 ### Grasp Candidates
 
@@ -40,7 +43,8 @@ candidate.
 Our method samples *n* points from the point cloud and considers *m=196* robot
 hand orientations for each of the *n* points. Above, each black arrow
 corresponds to one of 49 hand approach directions. For each approach direction,
-there are four possible rotations about the approach axis (green).
+there are four possible rotations about the approach axis (green). In total, 
+our model makes a prediction for *n x m = n x 196* hand poses. 
 
 
 ## Publication
